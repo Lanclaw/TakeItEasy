@@ -66,9 +66,9 @@ for epoch in range(EPOCH):
             print('Epoch: ', epoch, '| step: ', step, '| loss: ', loss.item(), '| accuracy: ', accuracy)
 
 
-prediction = rnn(test_x[:10])
-pred = torch.max(prediction, dim=1)[1].numpy()
-real = test_y[:10]
-print('pred:', pred, 'real:', real)
+# prediction = rnn(test_x[:10])
+# pred = torch.max(prediction, dim=1)[1].numpy()
+# real = test_y[:10]
+# print('pred:', pred, 'real:', real)
 
 
